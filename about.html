@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - TechSage Solutions | Our Story</title>
+    <meta name="description" content="Learn about TechSage Solutions - Our mission, vision, and the team dedicated to delivering wise tech solutions.">
+    <link rel="canonical" href="https://www.techsage.com/about">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out;
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-out;
+        }
+        .fade-in-delay-1 {
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+        .animate-on-scroll.animated {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+    </style>
+  
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body class="bg-gradient-to-br from-slate-50 to-slate-100">
+    <nav class="bg-[#1E293B] shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-[#14B8A6]">TechSage Solutions</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-white hover:text-[#14B8A6] transition">Home</a>
+                    <a href="about.html" class="text-[#14B8A6] font-medium border-b-2 border-[#14B8A6]">About</a>
+                    <a href="services.html" class="text-white hover:text-[#14B8A6] transition">Services</a>
+                    <a href="products.html" class="text-white hover:text-[#14B8A6] transition">Products</a>
+                    <a href="contact.html" class="text-white hover:text-[#14B8A6] transition">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white hover:text-[#14B8A6]">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 bg-[#1E293B] border-t border-slate-600">
+                <a href="index.html" class="block px-3 py-2 text-white hover:text-[#14B8A6]">Home</a>
+                <a href="about.html" class="block px-3 py-2 text-[#14B8A6] font-medium">About</a>
+                <a href="services.html" class="block px-3 py-2 text-white hover:text-[#14B8A6]">Services</a>
+                <a href="products.html" class="block px-3 py-2 text-white hover:text-[#14B8A6]">Products</a>
+                <a href="contact.html" class="block px-3 py-2 text-white hover:text-[#14B8A6]">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+ 
+    <section class="bg-gradient-to-br from-[#1E293B] to-[#14B8A6] text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 fade-in-up">About TechSage Solutions</h1>
+            <p class="text-xl md:text-2xl max-w-3xl mx-auto text-[#CBD5E1] fade-in-delay-1">Dedicated to delivering wise solutions through technology. We help clients make smart tech decisions.</p>
+        </div>
+    </section>
+
+   
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="animate-on-scroll">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#1E293B] mb-6">Our Story</h2>
+                    <p class="text-[#1E293B] mb-4">Founded with a vision to transform businesses through wise tech solutions, TechSage Solutions has been at the forefront of delivering excellence for over a decade.</p>
+                    <p class="text-[#1E293B] mb-4">Our journey began with a simple belief: every business deserves access to smart technology decisions. We don't just fix issues; we help clients make informed tech choices. Today, we're proud to serve clients across various industries.</p>
+                    <p class="text-[#1E293B]">We combine deep expertise with a passion for innovation, ensuring that every solution we deliver drives real value for our clients.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg animate-on-scroll shadow-lg hover-lift border border-slate-200">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center p-4 bg-gradient-to-br from-[#14B8A6]/5 to-transparent rounded-lg hover:from-[#14B8A6]/10 transition">
+                            <div class="text-4xl font-bold text-[#14B8A6] mb-2">10+</div>
+                            <div class="text-slate-600">Years Experience</div>
+                        </div>
+                        <div class="text-center p-4 bg-gradient-to-br from-[#14B8A6]/5 to-transparent rounded-lg hover:from-[#14B8A6]/10 transition">
+                            <div class="text-4xl font-bold text-[#14B8A6] mb-2">500+</div>
+                            <div class="text-slate-600">Happy Clients</div>
+                        </div>
+                        <div class="text-center p-4 bg-gradient-to-br from-[#14B8A6]/5 to-transparent rounded-lg hover:from-[#14B8A6]/10 transition">
+                            <div class="text-4xl font-bold text-[#14B8A6] mb-2">1000+</div>
+                            <div class="text-slate-600">Projects Completed</div>
+                        </div>
+                        <div class="text-center p-4 bg-gradient-to-br from-[#14B8A6]/5 to-transparent rounded-lg hover:from-[#14B8A6]/10 transition">
+                            <div class="text-4xl font-bold text-[#14B8A6] mb-2">50+</div>
+                            <div class="text-slate-600">Team Members</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#1E293B] mb-4">Our Core Values</h2>
+                <p class="text-xl text-[#1E293B] max-w-2xl mx-auto">The principles that guide everything we do</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center animate-on-scroll hover-lift bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-5xl mb-4"></div>
+                    <h3 class="text-xl font-bold mb-3">Excellence</h3>
+                    <p class="text-[#1E293B]">We strive for the highest standards in everything we do.</p>
+                </div>
+                <div class="text-center animate-on-scroll hover-lift bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-5xl mb-4"></div>
+                    <h3 class="text-xl font-bold mb-3">Innovation</h3>
+                    <p class="text-[#1E293B]">We embrace new ideas and cutting-edge solutions.</p>
+                </div>
+                <div class="text-center animate-on-scroll hover-lift bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-5xl mb-4"></div>
+                    <h3 class="text-xl font-bold mb-3">Integrity</h3>
+                    <p class="text-[#1E293B]">We operate with honesty, transparency, and accountability.</p>
+                </div>
+                <div class="text-center animate-on-scroll hover-lift bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-5xl mb-4"></div>
+                    <h3 class="text-xl font-bold mb-3">Commitment</h3>
+                    <p class="text-[#1E293B]">We are dedicated to our clients' success and satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#1E293B] text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4 text-[#14B8A6]">TechSage Solutions</h3>
+                    <p class="text-[#CBD5E1]">Wise solutions through technology.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-[#CBD5E1]">
+                        <li><a href="index.html" class="hover:text-[#14B8A6]">Home</a></li>
+                        <li><a href="about.html" class="hover:text-[#14B8A6]">About</a></li>
+                        <li><a href="services.html" class="hover:text-[#14B8A6]">Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-[#CBD5E1]">
+                        <li><a href="products.html" class="hover:text-[#14B8A6]">Products</a></li>
+                        <li><a href="contact.html" class="hover:text-[#14B8A6]">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-[#CBD5E1] hover:text-[#14B8A6]">Facebook</a>
+                        <a href="#" class="text-[#CBD5E1] hover:text-[#14B8A6]">Twitter</a>
+                        <a href="#" class="text-[#CBD5E1] hover:text-[#14B8A6]">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
+                <p>&copy; 2024 TechSage Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+      
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animated');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
