@@ -8,49 +8,8 @@
     <link rel="canonical" href="https://www.techsage.com/contact">
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        .fade-in-up {
-            animation: fadeInUp 0.8s ease-out;
-        }
-        .fade-in-delay-1 {
-            animation: fadeInUp 0.8s ease-out 0.2s both;
-        }
-        .animate-on-scroll {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.6s ease-out;
-        }
-        .animate-on-scroll.animated {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        html {
-            scroll-behavior: smooth;
-        }
-        .hover-lift {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .hover-lift:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-        }
-        input, textarea {
-            transition: all 0.3s ease;
-        }
-        input:focus, textarea:focus {
-            transform: scale(1.02);
-        }
-    </style>
+    
+    <link rel="stylesheet" href="css/styles.css">
 
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -109,7 +68,7 @@
             <div class="grid md:grid-cols-2 gap-12">
            
                 <div class="animate-on-scroll">
-                    <h2 class="text-3xl font-bold text-gray-900 mb-6">Send us a Message</h2>
+                    <h2 class="text-3xl font-bold text-[#1E293B] mb-6">Send us a Message</h2>
                     <form id="contact-form" class="space-y-6">
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name</label>
@@ -137,33 +96,33 @@
                 </div>
 
                 <div class="animate-on-scroll">
-                    <h2 class="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
+                    <h2 class="text-3xl font-bold text-[#1E293B] mb-6">Get in Touch</h2>
                     <div class="space-y-6">
                         <div class="flex items-start">
                             <div class="text-[#14B8A6] text-2xl mr-4"></div>
                             <div>
-                                <h3 class="font-semibold text-gray-900 mb-2">Address</h3>
+                                <h3 class="font-semibold text-[#1E293B] mb-2">Address</h3>
                                 <p class="text-[#1E293B]">123 Business Street<br>New York, NY 10001<br>United States</p>
                             </div>
                         </div>
                         <div class="flex items-start">
                             <div class="text-[#14B8A6] text-2xl mr-4"></div>
                             <div>
-                                <h3 class="font-semibold text-gray-900 mb-2">Phone</h3>
+                                <h3 class="font-semibold text-[#1E293B] mb-2">Phone</h3>
                                 <p class="text-[#1E293B]">+1 (555) 123-4567</p>
                             </div>
                         </div>
                         <div class="flex items-start">
                             <div class="text-[#14B8A6] text-2xl mr-4"></div>
                             <div>
-                                <h3 class="font-semibold text-gray-900 mb-2">Email</h3>
+                                <h3 class="font-semibold text-[#1E293B] mb-2">Email</h3>
                                 <p class="text-[#1E293B]">info@techsage.com</p>
                             </div>
                         </div>
                         <div class="flex items-start">
                             <div class="text-[#14B8A6] text-2xl mr-4"></div>
                             <div>
-                                <h3 class="font-semibold text-gray-900 mb-2">Business Hours</h3>
+                                <h3 class="font-semibold text-[#1E293B] mb-2">Business Hours</h3>
                                 <p class="text-[#1E293B]">Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
                             </div>
                         </div>
@@ -176,13 +135,13 @@
   
     <section class="py-16 bg-white animate-on-scroll">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Find Us</h2>
+            <h2 class="text-3xl font-bold text-[#1E293B] mb-8 text-center">Find Us</h2>
             <div class="rounded-lg overflow-hidden shadow-lg">
                 <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1841325968!2d-73.98811768459422!3d40.74844097932685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b30eac9f%3A0xaca05ca48ab5ac2c!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1234567890" 
                     width="100%" 
                     height="450" 
-                    style="border:0;" 
+                    class="border-0" 
                     allowfullscreen="" 
                     loading="lazy" 
                     referrerpolicy="no-referrer-when-downgrade"
@@ -225,7 +184,7 @@
                 </div>
             </div>
             <div class="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
-                <p>&copy; 2024 TechSage Solutions. All rights reserved.</p>
+                <p>&copy; 2025 TechSage Solutions. All rights reserved.</p>
             </div>
         </div>
     </footer>
