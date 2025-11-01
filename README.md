@@ -1,6 +1,6 @@
 # GulfSierra
 
-A modern website for TechSage Solutions.
+A modern website for Zen IT Heights.
 
 ## Features
 
